@@ -14,3 +14,6 @@ Quais são algumas das situações em que branches seriam úteis para manter seu
 	R: Se eu quiser testar um novo modelo de dificuldade para o jogo; Se eu quiser testar um novo idioma; Ou implementar um 
 	novo recurso que ainda não tenho certeza se vai ficar. Eu poderia fazer diversas alterações sem prejudicar o produto
 	principal.
+
+Como os diagramas ajudam a visualizar a estrutura de branches?
+	R: Com os diagramas é possível compreender melhor o fluxo de commits, compreendendo a partir de que ponto algo é feito.
