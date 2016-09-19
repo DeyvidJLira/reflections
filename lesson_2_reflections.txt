@@ -17,3 +17,6 @@ Quais são algumas das situações em que branches seriam úteis para manter seu
 
 Como os diagramas ajudam a visualizar a estrutura de branches?
 	R: Com os diagramas é possível compreender melhor o fluxo de commits, compreendendo a partir de que ponto algo é feito.
+
+Qual é o resultado da mesclagem de dois branches? Por que o representamos no diagrama dessa forma?
+	R: É gerado um novo commit com ponto de partida o branch no checkout. Para compreender melhor o fluxo.
