@@ -1,0 +1,57 @@
+Como comparar a diferença entre duas versões ajuda a você detectar o erroComo a visualização de um diff entre duas versões de um arquivo ajuda você a ver o bug que foi introduzido?
+
+	R: Na minha visão o principal vantagem é que você não precisa estar analisando cada trecho
+e pensando no resultado que ele implica, comparando você percebe que se uma área não mudou,
+então provalvemente não é ela e aonde mudou eu posso ver de que maneira ela mudou e se a mudança
+estar da maneira que eu planejei.
+
+Como ter fácil acesso a todo o histórico de um arquivo pode torná-lo um programador mais eficiente no longo prazo?
+
+	R: Com o histórico de mudanças de um arquivo, posso avaliar o tempo que passei para fazer cada ação, se eu precisei 
+corrigir muita coisa, avaliar meu desempenho, enfim obter dados que permita eu analisar e avaliar se a maneira que 
+eu trabalhei foi eficiente e como eu posso melhorar, além de poder entender como aquele arquivo chegou naquele estado.
+
+Na sua opinião, quais são os prós e contras de escolher manualmente quando criar um commit, como ocorre no Git, v. o salvamento automático de versões, como no Google Docs?
+
+	R: Na escolha manual temos como:
+ 		- Vantagens
+ 			>Separar as mudanças por uma alteração lógica;
+ 			>Poder definir as mudanças ligadas aquele commit;
+ 		- Desvantagens
+ 			>Pode ser que o usuário esqueça de commitar e faça diversas alterações não correlacionadas, colocando tudo em um só commit;
+ 			>O usuário pode não deixar o commit claro;
+
+	No salvamento automático temos como:
+		- Vantagens
+			>Todas alterações serão salvas, não há o risco de eu esquecer;
+			>A mudanças estão em blocos pequenos;
+		- Desvantagens
+			>Existirá versões demasiadamentes dificultando a análise;
+			>Mudanças podem não estar correlacionadas dentro da versão;
+
+
+Por que você acha que alguns sistemas de controle de versão, como o Git, permitem salvar vários arquivos em um commit, enquanto outros, como o Google Docs, tratam cada arquivo separadamente?
+
+	R: Os que permitem salva vários arquivos em um commit, é o fato de existir alterações que ocorrem em vários arquivos,
+mas estão todas ligadas a uma razão, de maneira que mudar apenas um arquivo não faria sentido para aquele commit;
+
+	Já os outros que salvam separadamente, considera a mudança ligada apenas a um arquivo, tal mudança não implicaria
+na necessidade de alterar outros arquivos;
+
+
+Como usar os comandos git log e git diff para visualizar o histórico dos arquivos?
+
+	R: O git log posso usar ele para ver a listagem de todos os commits realizados, caso não caiba na tela é só
+	ficar pressionando seta para baixo e é realizado uma rolagem para baixo, mostrandos os outros commits;
+
+	O git diff posso usar para comparar dois commits, para isso é necessário que eu tenha o id dos dois commits, 
+	os ids podem serem obtidos na listagem que o git log apresenta bastando então eu colocar: git diff
+	primeiro_id segundo_id;
+
+De que modo o controle de versão pode dar a você mais segurança para fazer alterações que podem danificar algo?
+
+	R: Caso eu esteja em um versão com bug, eu posso simplesmente voltar para uma versão anterior que o bug não existia.
+
+Agora que você já configurou a sua área de trabalho, você quer usar o Git para quê?
+	
+	R: Quero usar para versionar todos os meus projetos de desenvolvimento seja jogos ou apps;

@@ -1,0 +1,4 @@
+O que acontece ao iniciar um repositório? Por que você precisa fazer isso?
+	R: Ao iniciar um repositório GIT é criado um diretório oculto que manterá,
+	metadados dos arquivos.
+	É a base para poder fazer o rastreamento dos arquivos.
