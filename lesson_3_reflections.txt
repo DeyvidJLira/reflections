@@ -3,3 +3,9 @@ Quando gostaria de usar um repositório remoto em vez de manter o trabalho local
 
 Por que você prefere efetuar pull de alterações manualmente do que deixar o Git atualizar-se automaticamente com o seu repositório remoto?
 	R: Para evitar possíveis conflitos, posso querer analisar o repositório remoto antes de decidir dar um pull.
+
+Descreva as diferenças entre bifurcações, clones e branches. Quando você usaria um e não os outros?
+	R: 
+		Branches - São linhas de desenvolvimento, é um branch que permitem navegar entre uma série de commits. Eu sempre criaria uma nova quando quisesse desenvolver  uma nova funcionalidade, mas que não afetar-se o desenvolvimento principal e quando tivesse de  fato funcional eu juntaria a principal. Sempre se usa uma para manter o commit.
+		Clone - Você faz uma cópia para seu dispositivo local, seja de um repositório remoto ou de um repositório local, eu usaria quando quisesse trabalhar naquele repositório tendo um cópia local, enviando e recebendo atualizações.
+		Fork - É um clone que você faz de um repositório remoto para seu repositório remoto, eu usaria quando você fazer alguma versão minha de um repositório existente, mas este respositório não permiti-se o envio.
