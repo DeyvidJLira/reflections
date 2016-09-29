@@ -9,3 +9,6 @@ Descreva as diferenças entre bifurcações, clones e branches. Quando você usa
 		Branches - São linhas de desenvolvimento, é um branch que permitem navegar entre uma série de commits. Eu sempre criaria uma nova quando quisesse desenvolver  uma nova funcionalidade, mas que não afetar-se o desenvolvimento principal e quando tivesse de  fato funcional eu juntaria a principal. Sempre se usa uma para manter o commit.
 		Clone - Você faz uma cópia para seu dispositivo local, seja de um repositório remoto ou de um repositório local, eu usaria quando quisesse trabalhar naquele repositório tendo um cópia local, enviando e recebendo atualizações.
 		Fork - É um clone que você faz de um repositório remoto para seu repositório remoto, eu usaria quando você fazer alguma versão minha de um repositório existente, mas este respositório não permiti-se o envio.
+
+Qual é o benefício de ter uma cópia do último estado conhecido do remoto armazenado localmente?
+	R: Com isso é possível verificar conflitos antes de enviar atualização para o remoto, pois poderei verificar localmente o estado do meu branch em relação ao branch remoto.
