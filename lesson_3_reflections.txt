@@ -15,3 +15,6 @@ Qual é o benefício de ter uma cópia do último estado conhecido do remoto arm
 
 Como você colaboraria sem usar Git ou GitHub? O que seria mais fácil e mais difícil?
 	R: Eu poderia colabora meus projeto colocando os arquivos em alguma nuvem compartilhada. Seria mais fácil de enviar atualizações e compartilhar conteúdo. A parte difícil são muitas devido aos problemas que posso ter como enviar atualização que gere problemas, não conseguir ter um relatório automatizado das mudanças, não poder ter uma boa análise quando alguém enviar alguma atualização, não poder voltar um instante no desenvolvimento, dificuldade de gerenciar multiplas mudança...
+
+Quando você gostaria de fazer alterações em um branch separado, e não diretamente no master? Quais são os benefícios de cada abordagem?
+	R: Quando eu tiver o interesse de criar uma nova funcionalidade ou uma nova versão com um conjunto de funcionalidades e não quiser prejudicar o desenvolvimento atual. Segurança, caso perceba-se que a funcionalidade é inviável ela pode simplesmente ser descartada.
